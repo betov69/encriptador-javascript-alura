@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="Encriptador, JavaScript, Alura, Portafolio, Basico">
+  <link rel="stylesheet" type="text/css" href="styles/reset.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+
+  <title>Encriptador JavaScript Alura</title>
+
+</head>
+<body>
+  <header>
+    <img src="images/Logo.png" alt="Logo Alura">
+  </header>
+
+    <div class="caja-principal">
+      <div class="caja-ingresa-texto">
+        <textarea placeholder="Ingresa texto aquí" spellcheck="false" class="texto-encriptar"></textarea>
+      </div>
+      <div class="caja-botones">
+        <p>&#x26a0;Solo letras minúsculas y sin acento</p>
+        <button class="boton-encripta" onclick="encriptarTexto()">Encriptar</button>
+        <span class="espacio-entre-botones"></span>
+        <button class="boton-desencripta">Desencriptar</button>
+      </div>
+    </div>
+    <div class="caja-derecha">
+      <img src="images/Muñeco.jpg" alt="Persona observando diamante con lupa">
+      <p class="texto-caja-derecha">Ningún mensaje fue encontrado</p>
+      <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+    </div>
+    <div class="caja-derecha-salida">
+      <textarea spellcheck="false" class="texto-encriptado" disabled></textarea>
+      <button class="boton-copiar">Copiar</button>
+    </div>
+
+  <footer>
+    Realizado por José Alberto, &#x1f1f2;&#x1f1fd; 2023
+  </footer>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
